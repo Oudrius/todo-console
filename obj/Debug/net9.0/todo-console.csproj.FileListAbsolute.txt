@@ -1,0 +1,14 @@
+/home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/bin/Debug/net9.0/todo-console
+/home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/bin/Debug/net9.0/todo-console.deps.json
+/home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/bin/Debug/net9.0/todo-console.runtimeconfig.json
+/home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/bin/Debug/net9.0/todo-console.dll
+/home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/bin/Debug/net9.0/todo-console.pdb
+/home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/obj/Debug/net9.0/todo-console.GeneratedMSBuildEditorConfig.editorconfig
+/home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/obj/Debug/net9.0/todo-console.AssemblyInfoInputs.cache
+/home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/obj/Debug/net9.0/todo-console.AssemblyInfo.cs
+/home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/obj/Debug/net9.0/todo-console.csproj.CoreCompileInputs.cache
+/home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/obj/Debug/net9.0/todo-console.dll
+/home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/obj/Debug/net9.0/refint/todo-console.dll
+/home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/obj/Debug/net9.0/todo-console.pdb
+/home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/obj/Debug/net9.0/todo-console.genruntimeconfig.cache
+/home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/obj/Debug/net9.0/ref/todo-console.dll
