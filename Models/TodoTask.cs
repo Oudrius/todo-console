@@ -1,13 +1,13 @@
-namespace todo_console;
+namespace Models;
 
-public enum Priority
+internal enum Priority
 {
     Low,
     Medium,
     High
 }
 
-public class TodoTask
+internal class TodoTask
 {
     public required string Title { get; set; }
     public bool IsCompleted { get; set; } = false;

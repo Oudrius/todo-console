@@ -12,3 +12,4 @@
 /home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/obj/Debug/net9.0/todo-console.pdb
 /home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/obj/Debug/net9.0/todo-console.genruntimeconfig.cache
 /home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/obj/Debug/net9.0/ref/todo-console.dll
+/home/audrius/Documents/Job/ITMA/C#/learning-c#/todo-console/obj/Debug/net9.0/todo-console.sourcelink.json
