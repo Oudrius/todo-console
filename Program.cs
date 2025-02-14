@@ -5,7 +5,6 @@ using UI;
 var categories = new Dictionary<string, List<TodoTask>>();
 var tasks = new List<TodoTask>();
 var taskManager = new TaskManager();
-var categoryManager = new CategoryManager();
 string? choice = null;
 while (choice != "5")
 {
@@ -33,13 +32,13 @@ while (choice != "5")
         switch (catChoice)
         {
             case "1":
-                categoryManager.ReadCategories(categories);
+                CategoryManager.ReadCategories(categories);
                 break;
             case "2":
-                categoryManager.CreateCategory(categories);
+                CategoryManager.CreateCategory(categories);
                 break;
             case "3":
-                categoryManager.RemoveCategory(categories);
+                CategoryManager.RemoveCategory(categories);
                 break;
             default:
                 Console.WriteLine("Incorrect choice.");

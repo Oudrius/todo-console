@@ -39,4 +39,22 @@ internal static class MenuHandler
             3. Remove category.
         ");
     }
+
+    internal static void QueryMenu()
+    {
+        Console.WriteLine(@"
+            1. Filter by status.
+            2. Filter by duedate.
+            3. Exit.
+        ");
+    }
+
+    internal static void StatusQueryMenu()
+    {
+        Console.WriteLine(@"
+            1. Low
+            2. Medium
+            3. High
+        ");
+    }
 }

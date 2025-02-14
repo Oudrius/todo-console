@@ -63,6 +63,57 @@ internal class TaskManager
             Console.WriteLine($"Priority: {task.Priority}");
             i++;
         }
+
+        MenuHandler.QueryMenu();
+        var choice = Console.ReadLine();
+        switch (choice)
+        {
+            case "1":
+                var queryServiceObj = new QueryService();
+                List<TodoTask> filteredTasks;
+                Priority priority;
+                Console.WriteLine("Select task priority:");
+                MenuHandler.StatusQueryMenu();
+                choice = Console.ReadLine();
+                var j = 1;
+                switch (choice)
+                {
+                    case "1":
+                        priority = Priority.Low;
+                        filteredTasks = queryServiceObj.StatusQuery(tasks, priority);
+                        foreach (var task in filteredTasks)
+                        {
+                            Console.WriteLine($"{j}. {task.Title}");
+                            j++;
+                        }
+                        break;
+                    case "2":
+                        priority = Priority.Medium;
+                        filteredTasks = queryServiceObj.StatusQuery(tasks, priority);
+                        foreach (var task in filteredTasks)
+                        {
+                            Console.WriteLine($"{j}. {task.Title}");
+                            j++;
+                        }
+                        break;
+                    case "3":
+                        priority = Priority.High;
+                        filteredTasks = queryServiceObj.StatusQuery(tasks, priority);
+                        foreach (var task in filteredTasks)
+                        {
+                            Console.WriteLine($"{j}. {task.Title}");
+                            j++;
+                        }
+                        break;
+                }
+                break;
+            case "2":
+                break;
+            case "3":
+                break;
+            default:
+                break;
+        }
     }
 
     public void UpdateTasks(List<TodoTask> tasks, Dictionary<string, List<TodoTask>> categories)

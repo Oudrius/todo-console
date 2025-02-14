@@ -4,7 +4,7 @@ namespace Services;
 
 internal class CategoryManager
 {
-    public void CreateCategory(Dictionary<string, List<TodoTask>> categories)
+    internal static void CreateCategory(Dictionary<string, List<TodoTask>> categories)
     {
         Console.WriteLine("Category name:");
         string? catName = null;
@@ -15,7 +15,7 @@ internal class CategoryManager
         categories.Add(catName, []);
     }
 
-    public void ReadCategories(Dictionary<string, List<TodoTask>> categories)
+    internal static void ReadCategories(Dictionary<string, List<TodoTask>> categories)
     {
         if (categories.Count == 0)
         {
@@ -45,7 +45,7 @@ internal class CategoryManager
         }
     }
 
-    public void RemoveCategory(Dictionary<string, List<TodoTask>> categories)
+    internal static void RemoveCategory(Dictionary<string, List<TodoTask>> categories)
     {
         if (categories.Count == 0)
         {
